@@ -1,0 +1,11 @@
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\bin\Debug\net8.0\Domain.dll
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\bin\Debug\net8.0\Domain.pdb
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\Domain.dll
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\Domain.pdb
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Domain\obj\Debug\net8.0\ref\Domain.dll
