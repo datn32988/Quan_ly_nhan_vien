@@ -9,6 +9,7 @@ namespace Application.DTOs
     public class CompletedTaskDto
     {
         public long TaskId { get; set; }
+        public string TaskName { get; set; } = null!;
         public string? CompletionDescription { get; set; }
     }
 }

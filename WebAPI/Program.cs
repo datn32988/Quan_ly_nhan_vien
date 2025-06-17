@@ -22,9 +22,16 @@ builder.Services.AddScoped<ICheckinRepository, CheckinRepository>();
 builder.Services.AddScoped<IDailyWorkSummaryRepository, DailyWorkSummaryRepository>();
 builder.Services.AddScoped<IDailyReportRepository, DailyReportRepository>();
 builder.Services.AddScoped<IDailyReportService, DailyReportService>();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<IWorkScheduleRepository, WorkScheduleRepository>();
+builder.Services.AddScoped<IWorkPlanRepository, WorkPlanRepository>();
 // Đăng ký services
 builder.Services.AddScoped<ICheckinService, CheckinService>();
 builder.Services.AddScoped<IDailyWorkSummaryService, DailyWorkSummaryService>();
+builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddScoped<IWorkScheduleService, WorkScheduleService>();
+builder.Services.AddScoped<IWorkPlanService, WorkPlanService>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

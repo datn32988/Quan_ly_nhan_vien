@@ -70,5 +70,12 @@ namespace Infrastructure.Repositories
             _context.Checkins.Remove(checkin);
             await _context.SaveChangesAsync();
         }
+        public async Task<List<Checkin>> GetByDateRangeAsync(DateTime start, DateTime end)
+        {
+            return await _context.Checkins
+                .Where(c => c.CheckinTime >= start && c.CheckinTime <= end)
+                .Include(c => c.Employee)
+                .ToListAsync();
+        }
     }
 }

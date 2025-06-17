@@ -16,5 +16,6 @@ namespace Application.Interfaces.IRepositories
         Task AddAsync(Checkin checkin);
         Task UpdateAsync(Checkin checkin);
         Task DeleteAsync(Checkin checkin);
+        Task<List<Checkin>> GetByDateRangeAsync(DateTime start, DateTime end);
     }
 }

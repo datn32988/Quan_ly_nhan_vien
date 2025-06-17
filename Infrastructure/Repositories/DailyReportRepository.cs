@@ -83,6 +83,13 @@ namespace Infrastructure.Repositories
 
             await _context.SaveChangesAsync();
         }
+        public async Task<List<EmployeesList>> GetAvailableTasksForEmployeeAsync(int employeeId)
+        {
+            return await _context.EmployeesLists
+                .Where(t => t.AssignedToEmployeeId == employeeId && t.Status != "Completed")
+                .Include(t => t.AssignedToEmployee)
+                .ToListAsync();
+        }
 
         public async Task FinalizeReportAsync(long reportId)
         {
@@ -94,5 +101,49 @@ namespace Infrastructure.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task<List<DailyReportCompletedTask>> GetCompletedTasksByReportIdAsync(long reportId)
+        {
+            return await _context.DailyReportCompletedTasks
+                .Include(ct => ct.Task)
+                .Where(ct => ct.ReportId == reportId)
+                .ToListAsync();
+        }
+
+        public async Task<List<DailyReportPlannedTask>> GetPlannedTasksByReportIdAsync(long reportId)
+        {
+            return await _context.DailyReportPlannedTasks
+                .Include(pt => pt.Task)
+                .Where(pt => pt.ReportId == reportId)
+                .ToListAsync();
+        }
+
+        public async Task<List<DateTime>> GetMissingReportDatesForEmployeeAsync(int employeeId)
+        {
+            var employee = await _context.Employees.FindAsync(employeeId);
+            if (employee == null) return new List<DateTime>();
+
+            var startDate = employee.HireDate.Date;
+            var endDate = DateTime.Today.AddDays(-1); 
+
+            var existingReportDates = await _context.DailyReports
+                .Where(r => r.EmployeeId == employeeId)
+                .Select(r => r.ReportDate.Date)
+                .ToListAsync();
+
+            var missingDates = new List<DateTime>();
+            for (var date = startDate; date <= endDate; date = date.AddDays(1))
+            {
+                if (date.DayOfWeek != DayOfWeek.Saturday && date.DayOfWeek != DayOfWeek.Sunday)
+                {
+                    if (!existingReportDates.Contains(date))
+                    {
+                        missingDates.Add(date);
+                    }
+                }
+            }
+
+            return missingDates;
+        }
+
     }
 }

@@ -87,8 +87,24 @@ namespace Application.Services
 
         public async Task<List<TaskDto>> GetAvailableTasksForEmployeeAsync(int employeeId)
         {
-           
-            throw new NotImplementedException();
+            var tasks = await _reportRepository.GetAvailableTasksForEmployeeAsync(employeeId);
+            return _mapper.Map<List<TaskDto>>(tasks);
+        }
+        public async Task<List<CompletedTaskDto>> GetCompletedTasksByReportIdAsync(long reportId)
+        {
+            var completedTasks = await _reportRepository.GetCompletedTasksByReportIdAsync(reportId);
+            return _mapper.Map<List<CompletedTaskDto>>(completedTasks);
+        }
+
+        public async Task<List<PlannedTaskDto>> GetPlannedTasksByReportIdAsync(long reportId)
+        {
+            var plannedTasks = await _reportRepository.GetPlannedTasksByReportIdAsync(reportId);
+            return _mapper.Map<List<PlannedTaskDto>>(plannedTasks);
+        }
+
+        public async Task<List<DateTime>> GetMissingReportDatesForEmployeeAsync(int employeeId)
+        {
+            return await _reportRepository.GetMissingReportDatesForEmployeeAsync(employeeId);
         }
     }
 }

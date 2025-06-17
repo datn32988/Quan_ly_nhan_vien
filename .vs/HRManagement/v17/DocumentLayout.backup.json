@@ -3,36 +3,112 @@
   "WorkspaceRootPath": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\dailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\dailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\dailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\dailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\workplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\workplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\controllers\\dailyreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\dailyreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\workplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\workplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\workplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\workplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\iservices\\idailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iservices\\idailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\controllers\\workplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\workplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\idailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\idailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\iservices\\iworkplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iservices\\iworkplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\workplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\workplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\iworkplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\iworkplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\controllers\\workschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\workschedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\workscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\workscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\iservices\\iworkscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iservices\\iworkscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\iworkschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\iworkschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\workscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\workscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\checkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\checkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\icheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\icheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\checkinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\checkinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\dailyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\dailyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\dailyworksummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\dailyworksummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\controllers\\dailyreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\dailyreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\positiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\positiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\plannedtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,8 +119,60 @@
       "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\completedtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\dailyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\dailyreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\checkindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\checkindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\workschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\workschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\workschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\workschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\iservices\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iservices\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\employeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\employeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\dailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\dailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\dailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\dailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\idailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\idailyreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\dailyworksummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\dailyworksummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\iservices\\idailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iservices\\idailyreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\dailyreportplannedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,24 +187,8 @@
       "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\dailyreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\employeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\employeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\contexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\dailyworksummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\dailyworksummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\services\\checkinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\services\\checkinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\controllers\\dailyworksummariescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +203,6 @@
       "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\dailyworksummaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\checkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\checkinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\iservices\\idailyworksummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iservices\\idailyworksummaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -107,18 +215,6 @@
       "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\idailyworksummaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\icheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\icheckinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\dailyworksummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\dailyworksummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\checkindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\checkindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\common\\worktimeconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\common\\worktimeconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,10 +225,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\checkin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\workschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\workschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -151,24 +243,8 @@
       "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iservices\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\interfaces\\irepositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\repositories\\positionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -187,16 +263,8 @@
       "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\interfaces\\irepositories\\ipositionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\positiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|solutionrelative:application\\dtos\\positiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\workplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\workplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F7DBB99-79E6-4238-ABFD-F9551A6D0BFF}|Infrastructure\\Infrastructure.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -214,228 +282,252 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DailyReportsController.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyReportsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DailyReportsController.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyReportsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\DailyReportsController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "WorkPlanService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\WorkPlanService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\WorkPlanService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\WorkPlanService.cs",
+              "RelativeToolTip": "Application\\Services\\WorkPlanService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAEwEcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:18:41.186Z",
+              "WhenOpened": "2025-06-17T07:27:33.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DailyReportRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyReportRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DailyReportRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyReportRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\DailyReportRepository.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:17:41.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DailyReportService.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyReportService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\DailyReportService.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyReportService.cs*",
-              "RelativeToolTip": "Application\\Services\\DailyReportService.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvzsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:16:50.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mapper.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Mapper\\Mapper.cs",
-              "RelativeDocumentMoniker": "Application\\Mapper\\Mapper.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Mapper\\Mapper.cs",
-              "RelativeToolTip": "Application\\Mapper\\Mapper.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:22:35.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T04:01:42.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDailyReportService.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyReportService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IDailyReportService.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyReportService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IServices\\IDailyReportService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "WorkPlan.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\WorkPlan.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\WorkPlan.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\WorkPlan.cs",
+              "RelativeToolTip": "Domain\\Entities\\WorkPlan.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:16:20.775Z",
+              "WhenOpened": "2025-06-16T04:08:36.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDailyReportRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\EmployeeDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\EmployeeDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\EmployeeDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:15:46.935Z",
+              "WhenOpened": "2025-06-16T07:33:46.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskDto.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\TaskDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\TaskDto.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\TaskDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Employee.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:15:21.383Z",
+              "WhenOpened": "2025-06-16T04:08:29.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlannedTaskDto.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PlannedTaskDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\PlannedTaskDto.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PlannedTaskDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\PlannedTaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WorkPlanDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\WorkPlanDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\WorkPlanDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\WorkPlanDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\WorkPlanDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:15:03.716Z",
+              "WhenOpened": "2025-06-17T07:25:27.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CompletedTaskDto.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\CompletedTaskDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\CompletedTaskDto.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\CompletedTaskDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\CompletedTaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Mapper\\Mapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\Mapper.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Mapper\\Mapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\Mapper.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:14:42.67Z",
+              "WhenOpened": "2025-06-17T04:23:35.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "DailyReportDto.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\DailyReportDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\DailyReportDto.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\DailyReportDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\DailyReportDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBQAAAAFAAAAAAAAAA==",
+              "Title": "IWorkPlanRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IWorkPlanRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IWorkPlanRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IWorkPlanRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IWorkPlanRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T09:14:15.884Z",
+              "WhenOpened": "2025-06-17T07:25:57.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WorkPlanRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\WorkPlanRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\WorkPlanRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\WorkPlanRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\WorkPlanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:26:37.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IWorkPlanService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IWorkPlanService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IWorkPlanService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IWorkPlanService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServices\\IWorkPlanService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:27:14.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorkPlansController.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\WorkPlansController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\WorkPlansController.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\WorkPlansController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\WorkPlansController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:28:43.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "EmployeesList.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\EmployeesList.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\EmployeesList.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\EmployeesList.cs",
-              "RelativeToolTip": "Domain\\Entities\\EmployeesList.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
+              "Title": "IWorkScheduleRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IWorkScheduleRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IWorkScheduleRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IWorkScheduleRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IWorkScheduleRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:31.762Z",
+              "WhenOpened": "2025-06-17T04:08:04.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "DailyReport.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReport.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\DailyReport.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReport.cs",
-              "RelativeToolTip": "Domain\\Entities\\DailyReport.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wB0AAAAAAAAAAAAAAA==",
+              "Title": "IWorkScheduleService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IWorkScheduleService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IWorkScheduleService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IWorkScheduleService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServices\\IWorkScheduleService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBIAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:14.097Z",
+              "WhenOpened": "2025-06-17T04:06:56.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "DailyReportCompletedTask.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportCompletedTask.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\DailyReportCompletedTask.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportCompletedTask.cs",
-              "RelativeToolTip": "Domain\\Entities\\DailyReportCompletedTask.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBMAAAAAAAAAAAAAAA==",
+              "Title": "WorkScheduleService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\WorkScheduleService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\WorkScheduleService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\WorkScheduleService.cs",
+              "RelativeToolTip": "Application\\Services\\WorkScheduleService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwHcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:19.813Z",
+              "WhenOpened": "2025-06-17T04:07:22.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DailyReportPlannedTask.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportPlannedTask.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\DailyReportPlannedTask.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportPlannedTask.cs",
-              "RelativeToolTip": "Domain\\Entities\\DailyReportPlannedTask.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Title": "WorkSchedulesController.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\WorkSchedulesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\WorkSchedulesController.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\WorkSchedulesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\WorkSchedulesController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwEsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:23.619Z",
+              "WhenOpened": "2025-06-17T04:09:27.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T04:10:19.235Z",
+              "Title": "WorkScheduleDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\WorkScheduleDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\WorkScheduleDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\WorkScheduleDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\WorkScheduleDto.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA0wDwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:04:21.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DailyWorkSummaryService.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyWorkSummaryService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\DailyWorkSummaryService.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyWorkSummaryService.cs",
-              "RelativeToolTip": "Application\\Services\\DailyWorkSummaryService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEUAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "CheckinRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\CheckinRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CheckinRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\CheckinRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\CheckinRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwEoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:05:18.48Z",
+              "WhenOpened": "2025-06-16T08:06:06.898Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\TaskDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\TaskDto.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:15:21.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICheckinRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:02:58.975Z"
             },
             {
               "$type": "Document",
@@ -445,144 +537,121 @@
               "RelativeDocumentMoniker": "Application\\Services\\CheckinService.cs",
               "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\CheckinService.cs",
               "RelativeToolTip": "Application\\Services\\CheckinService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:04:39.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Contexts\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Contexts\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Contexts\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Contexts\\ApplicationDbContext.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAAAcwPUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T03:58:56.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DailyWorkSummaryRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAiwDEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:06:37.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T08:04:39.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "CheckinsController.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\CheckinsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CheckinsController.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\CheckinsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\CheckinsController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:07:11.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DailyWorkSummariesController.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyWorkSummariesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DailyWorkSummariesController.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyWorkSummariesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\DailyWorkSummariesController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwC8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:07:39.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CheckinRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\CheckinRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CheckinRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\CheckinRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\CheckinRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA2wCAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:06:06.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IDailyWorkSummaryService.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:04:13.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ICheckinService.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\ICheckinService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\ICheckinService.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\ICheckinService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IServices\\ICheckinService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:03:51.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IDailyWorkSummaryRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:03:27.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ICheckinRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\ICheckinRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:02:58.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
               "Title": "DailyWorkSummaryDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\DailyWorkSummaryDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\DailyWorkSummaryDto.cs",
               "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\DailyWorkSummaryDto.cs",
               "RelativeToolTip": "Application\\DTOs\\DailyWorkSummaryDto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:02:19.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T08:02:19.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DailyReportDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\DailyReportDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\DailyReportDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\DailyReportDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\DailyReportDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:14:15.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Application\\ServiceExtensions.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\ServiceExtensions.cs",
+              "RelativeToolTip": "Application\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:26:10.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\TaskService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\TaskService.cs",
+              "RelativeToolTip": "Application\\Services\\TaskService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA8wEoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:15:48.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DailyReportsController.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyReportsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DailyReportsController.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyReportsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\DailyReportsController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:18:41.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PositionDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PositionDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PositionDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PositionDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\PositionDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:16:35.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlannedTaskDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PlannedTaskDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\PlannedTaskDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PlannedTaskDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\PlannedTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:15:03.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:34:22.377Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "CompletedTaskDto.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\CompletedTaskDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\CompletedTaskDto.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\CompletedTaskDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\CompletedTaskDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:14:42.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "CheckinDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\CheckinDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\CheckinDto.cs",
@@ -590,34 +659,67 @@
               "RelativeToolTip": "Application\\DTOs\\CheckinDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:01:57.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T08:01:57.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "WorkTimeConstants.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Common\\WorkTimeConstants.cs",
-              "RelativeDocumentMoniker": "Domain\\Common\\WorkTimeConstants.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Common\\WorkTimeConstants.cs",
-              "RelativeToolTip": "Domain\\Common\\WorkTimeConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Contexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Contexts\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Contexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Contexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T08:01:20.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T03:58:56.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\EmployeeRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAawBoAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 31,
+              "Title": "WorkScheduleRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\WorkScheduleRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\WorkScheduleRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\WorkScheduleRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\WorkScheduleRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAawB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:35:29.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T04:08:25.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAEwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:10:41.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:09:33.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IDailyReportRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IDailyReportRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA4AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:15:46.935Z"
             },
             {
               "$type": "Document",
@@ -627,14 +729,241 @@
               "RelativeDocumentMoniker": "Domain\\Entities\\WorkSchedule.cs",
               "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\WorkSchedule.cs",
               "RelativeToolTip": "Domain\\Entities\\WorkSchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:39.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T04:08:39.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\ITaskService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\ITaskService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServices\\ITaskService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:15:25.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\TasksController.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T03:18:59.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmployeesList.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\EmployeesList.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\EmployeesList.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\EmployeesList.cs",
+              "RelativeToolTip": "Domain\\Entities\\EmployeesList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:08:31.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DailyWorkSummaryService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyWorkSummaryService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DailyWorkSummaryService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyWorkSummaryService.cs",
+              "RelativeToolTip": "Application\\Services\\DailyWorkSummaryService.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwHoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:05:18.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DailyReportRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyReportRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DailyReportRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyReportRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DailyReportRepository.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAIwFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:17:41.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DailyReportService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyReportService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\DailyReportService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DailyReportService.cs",
+              "RelativeToolTip": "Application\\Services\\DailyReportService.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwFoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:16:50.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IDailyReportService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyReportService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IDailyReportService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyReportService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServices\\IDailyReportService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:16:20.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DailyReportPlannedTask.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportPlannedTask.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DailyReportPlannedTask.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportPlannedTask.cs",
+              "RelativeToolTip": "Domain\\Entities\\DailyReportPlannedTask.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:08:23.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DailyReportCompletedTask.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportCompletedTask.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DailyReportCompletedTask.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReportCompletedTask.cs",
+              "RelativeToolTip": "Domain\\Entities\\DailyReportCompletedTask.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:08:19.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DailyReport.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReport.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DailyReport.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyReport.cs",
+              "RelativeToolTip": "Domain\\Entities\\DailyReport.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA/wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T04:08:14.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T04:10:19.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DailyWorkSummaryRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\DailyWorkSummaryRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:06:37.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CheckinsController.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\CheckinsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CheckinsController.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\CheckinsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CheckinsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:07:11.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DailyWorkSummariesController.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyWorkSummariesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DailyWorkSummariesController.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DailyWorkSummariesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\DailyWorkSummariesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:07:39.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IDailyWorkSummaryService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServices\\IDailyWorkSummaryService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:04:13.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ICheckinService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\ICheckinService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\ICheckinService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\ICheckinService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IServices\\ICheckinService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:03:51.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IDailyWorkSummaryRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IDailyWorkSummaryRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:03:27.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "WorkTimeConstants.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Common\\WorkTimeConstants.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\WorkTimeConstants.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Common\\WorkTimeConstants.cs",
+              "RelativeToolTip": "Domain\\Common\\WorkTimeConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:01:20.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAawBoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:35:29.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "DailyWorkSummary.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\DailyWorkSummary.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\DailyWorkSummary.cs",
@@ -642,12 +971,11 @@
               "RelativeToolTip": "Domain\\Entities\\DailyWorkSummary.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA/wCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:26.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T04:08:26.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 55,
               "Title": "Checkin.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Checkin.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Checkin.cs",
@@ -655,12 +983,11 @@
               "RelativeToolTip": "Domain\\Entities\\Checkin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:07:50.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T04:07:50.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 59,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IEmployeeService.cs",
@@ -668,12 +995,11 @@
               "RelativeToolTip": "Application\\Interfaces\\IServices\\IEmployeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:34:40.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:34:40.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 58,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\EmployeeService.cs",
@@ -681,12 +1007,11 @@
               "RelativeToolTip": "Application\\Services\\EmployeeService.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAqwFMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:35:03.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:35:03.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 57,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeesController.cs",
@@ -694,38 +1019,11 @@
               "RelativeToolTip": "WebAPI\\Controllers\\EmployeesController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAuwD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:36:01.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:36:01.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IEmployeeRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:34:22.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\EmployeeDto.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\EmployeeDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\EmployeeDto.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA/wBkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:33:46.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 61,
               "Title": "PositionRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\PositionRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PositionRepository.cs",
@@ -733,12 +1031,11 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\PositionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:20:42.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:20:42.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 62,
               "Title": "PositionService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\PositionService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\PositionService.cs",
@@ -746,12 +1043,11 @@
               "RelativeToolTip": "Application\\Services\\PositionService.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAuwD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:19:30.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:19:30.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 63,
               "Title": "IPositionService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IPositionService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IPositionService.cs",
@@ -759,38 +1055,11 @@
               "RelativeToolTip": "Application\\Interfaces\\IServices\\IPositionService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:18:12.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:18:12.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Employee.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Employee.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Employee.cs",
-              "RelativeToolTip": "Domain\\Entities\\Employee.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:29.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Application\\ServiceExtensions.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\ServiceExtensions.cs",
-              "RelativeToolTip": "Application\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:26:10.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 60,
               "Title": "PositionsController.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\PositionsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\PositionsController.cs",
@@ -798,12 +1067,11 @@
               "RelativeToolTip": "WebAPI\\Controllers\\PositionsController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAA+wDsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:29:07.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:29:07.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 64,
               "Title": "IPositionRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IPositionRepository.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IPositionRepository.cs",
@@ -811,25 +1079,11 @@
               "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IPositionRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:17:39.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:17:39.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "PositionDto.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PositionDto.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\PositionDto.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PositionDto.cs",
-              "RelativeToolTip": "Application\\DTOs\\PositionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:16:35.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 65,
               "Title": "Position.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Position.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Position.cs",
@@ -837,25 +1091,11 @@
               "RelativeToolTip": "Domain\\Entities\\Position.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:34.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T04:08:34.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "WorkPlan.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\WorkPlan.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\WorkPlan.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\WorkPlan.cs",
-              "RelativeToolTip": "Domain\\Entities\\WorkPlan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:36.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 66,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
@@ -863,12 +1103,11 @@
               "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-16T04:03:02.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T04:03:02.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 67,
               "Title": "WebAPI.csproj",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\WebAPI.csproj",
               "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
@@ -876,8 +1115,7 @@
               "RelativeToolTip": "WebAPI\\WebAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-16T04:01:30.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T04:01:30.415Z"
             }
           ]
         }

@@ -16,5 +16,8 @@ namespace Application.Interfaces.IServices
         Task<DailyReportDto> CreateOrUpdateDailyReportAsync(DailyReportDto reportDto);
         Task FinalizeReportAsync(long reportId);
         Task<List<TaskDto>> GetAvailableTasksForEmployeeAsync(int employeeId);
+        Task<List<CompletedTaskDto>> GetCompletedTasksByReportIdAsync(long reportId);
+        Task<List<PlannedTaskDto>> GetPlannedTasksByReportIdAsync(long reportId);
+        Task<List<DateTime>> GetMissingReportDatesForEmployeeAsync(int employeeId);
     }
 }

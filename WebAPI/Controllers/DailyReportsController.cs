@@ -65,5 +65,25 @@ namespace WebAPI.Controllers
             var tasks = await _reportService.GetAvailableTasksForEmployeeAsync(employeeId);
             return Ok(tasks);
         }
+        [HttpGet("{reportId}/completed-tasks")]
+        public async Task<ActionResult<List<CompletedTaskDto>>> GetCompletedTasks(long reportId)
+        {
+            var tasks = await _reportService.GetCompletedTasksByReportIdAsync(reportId);
+            return Ok(tasks);
+        }
+
+        [HttpGet("{reportId}/planned-tasks")]
+        public async Task<ActionResult<List<PlannedTaskDto>>> GetPlannedTasks(long reportId)
+        {
+            var tasks = await _reportService.GetPlannedTasksByReportIdAsync(reportId);
+            return Ok(tasks);
+        }
+
+        [HttpGet("employee/{id}/missing-reports")]
+        public async Task<ActionResult<List<DateTime>>> GetMissingReports(int id)
+        {
+            var missingDates = await _reportService.GetMissingReportDatesForEmployeeAsync(id);
+            return Ok(missingDates);
+        }
     }
 }
