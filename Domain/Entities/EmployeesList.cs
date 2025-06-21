@@ -13,7 +13,7 @@ public partial class EmployeesList
 
     public string? RelatedProject { get; set; }
 
-    public int AssignedToEmployeeId { get; set; }
+    public int? AssignedToEmployeeId { get; set; }
 
     public DateTime CreationDate { get; set; }
 

@@ -20,20 +20,13 @@ namespace Application.DTOs
 
     public class CreateWorkPlanDto
     {
-        [Required]
         public int EmployeeId { get; set; }
-
-        [Required]
-        [StringLength(500)]
         public string TaskDescription { get; set; } = null!;
-
-        [Required]
         public DateTime PlannedDate { get; set; }
     }
 
     public class UpdateWorkPlanDto
     {
-        [StringLength(500)]
         public string? TaskDescription { get; set; }
         public DateTime? PlannedDate { get; set; }
         public bool? IsCompleted { get; set; }

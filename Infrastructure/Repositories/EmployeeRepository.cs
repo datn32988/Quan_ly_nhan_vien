@@ -19,16 +19,12 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<Employee?> GetByIdAsync(int id, bool includeDetails = false)
+        public async Task<Employee?> GetByIdAsync(int id)
         {
-            if (includeDetails)
-            {
                 return await _context.Employees
                     .Include(e => e.Position)
                     .Include(e => e.Manager)
-                    .FirstOrDefaultAsync(e => e.EmployeeId == id);
-            }
-            return await _context.Employees.FindAsync(id);
+                    .FirstOrDefaultAsync(e => e.EmployeeId == id);    
         }
 
         public async Task<List<Employee>> GetAllAsync(bool includeDetails = false)
@@ -40,6 +36,7 @@ namespace Infrastructure.Repositories
                     .Include(e => e.Manager)
                     .ToListAsync();
             }
+
             return await _context.Employees.ToListAsync();
         }
 
@@ -72,6 +69,21 @@ namespace Infrastructure.Repositories
         public async Task<bool> ExistsAsync(int id)
         {
             return await _context.Employees.AnyAsync(e => e.EmployeeId == id);
+        }
+        public async Task<List<Employee>> GetAllWithPositionAndDepartmentAsync()
+        {
+            return await _context.Employees
+                .Include(e => e.Position)
+                    .ThenInclude(p => p.Description)
+                .OrderBy(e => e.FullName)
+                .ToListAsync();
+        }
+        public async Task<Employee?> GetById(int id)
+        {
+            return await _context.Employees
+                .Include(e => e.Position)
+                    .ThenInclude(p => p.Description)
+                .FirstOrDefaultAsync(e => e.EmployeeId == id);
         }
     }
 }

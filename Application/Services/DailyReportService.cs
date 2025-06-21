@@ -1,7 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Interfaces.IRepositories;
 using Application.Interfaces.IServices;
-using AutoMapper;
 using Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,98 +12,177 @@ namespace Application.Services
 {
     public class DailyReportService : IDailyReportService
     {
-        private readonly IDailyReportRepository _reportRepository;
-        private readonly IMapper _mapper;
+        private readonly IDailyReportRepository _dailyReportRepository;
+        private readonly IEmployeeRepository _employeeRepository;
+        private readonly ITaskRepository _taskRepository;
 
-        public DailyReportService(IDailyReportRepository reportRepository, IMapper mapper)
+        public DailyReportService(
+            IDailyReportRepository dailyReportRepository,
+            IEmployeeRepository employeeRepository,
+            ITaskRepository taskRepository)
         {
-            _reportRepository = reportRepository;
-            _mapper = mapper;
+            _dailyReportRepository = dailyReportRepository;
+            _employeeRepository = employeeRepository;
+            _taskRepository = taskRepository;
         }
 
-        public async Task<DailyReportDto?> GetReportByIdAsync(long id)
+        public async Task<DailyReportDto> CreateDailyReportAsync(DailyReportCreateDto request)
         {
-            var report = await _reportRepository.GetByIdAsync(id);
-            return _mapper.Map<DailyReportDto>(report);
+
+            var employee = await _employeeRepository.GetByIdAsync(request.EmployeeId);
+            if (employee == null)
+                throw new ArgumentException("Employee not found");
+
+            var existingReport = await _dailyReportRepository.ExistsAsync(request.EmployeeId, request.ReportDate.Date);
+            if (existingReport)
+                throw new InvalidOperationException("Daily report already exists for this date");
+
+            var dailyReport = new DailyReport
+            {
+                EmployeeId = request.EmployeeId,
+                ReportDate = request.ReportDate.Date,
+                GeneralNotes = request.GeneralNotes,
+                FinalizedTime = DateTime.UtcNow
+            };
+
+            var createdReport = await _dailyReportRepository.CreateAsync(dailyReport);
+
+
+            foreach (var completedTask in request.CompletedTasks)
+            {
+                createdReport.DailyReportCompletedTasks.Add(new DailyReportCompletedTask
+                {
+                    ReportId = createdReport.ReportId,
+                    TaskId = completedTask.TaskId,
+                    CompletionDescription = completedTask.CompletionDescription
+                });
+            }
+
+           
+            foreach (var plannedTask in request.PlannedTasks)
+            {
+                createdReport.DailyReportPlannedTasks.Add(new DailyReportPlannedTask
+                {
+                    ReportId = createdReport.ReportId,
+                    TaskId = plannedTask.TaskId,
+                    PlannedDescription = plannedTask.PlannedDescription
+                });
+            }
+
+            return await MapToDailyReportDto(createdReport);
         }
 
         public async Task<DailyReportDto?> GetDailyReportAsync(int employeeId, DateTime date)
         {
-            var report = await _reportRepository.GetByEmployeeAndDateAsync(employeeId, date);
-            return _mapper.Map<DailyReportDto>(report);
+            var report = await _dailyReportRepository.GetByEmployeeAndDateAsync(employeeId, date.Date);
+            if (report == null) return null;
+
+            return await MapToDailyReportDto(report);
         }
 
-        public async Task<List<DailyReportDto>> GetEmployeeReportsAsync(int employeeId)
+        public async Task<MonthlyReportDto?> GetMonthlyReportAsync(int employeeId, int year, int month)
         {
-            var reports = await _reportRepository.GetByEmployeeAsync(employeeId);
-            return _mapper.Map<List<DailyReportDto>>(reports);
-        }
+            var employee = await _employeeRepository.GetByIdAsync(employeeId);
+            if (employee == null) return null;
 
-        public async Task<DailyReportDto> CreateOrUpdateDailyReportAsync(DailyReportDto reportDto)
-        {
-            var existingReport = await _reportRepository.GetByEmployeeAndDateAsync(
-                reportDto.EmployeeId,
-                reportDto.ReportDate);
+            var dailyReports = await _dailyReportRepository.GetByEmployeeAndMonthAsync(employeeId, year, month);
 
-            if (existingReport == null)
+            var monthlyReport = new MonthlyReportDto
             {
-                var newReport = _mapper.Map<DailyReport>(reportDto);
-                await _reportRepository.AddAsync(newReport);
-                return _mapper.Map<DailyReportDto>(newReport);
+                EmployeeId = employeeId,
+                EmployeeName = employee.FullName,
+                Year = year,
+                Month = month,
+                DailyReports = new List<DailyReportDto>()
+            };
+
+            foreach (var report in dailyReports)
+            {
+                monthlyReport.DailyReports.Add(await MapToDailyReportDto(report));
             }
 
-            // Chỉ cập nhật các trường có thể thay đổi
-            existingReport.TotalWorkHours = reportDto.TotalWorkHours;
-            existingReport.WorkStatus = reportDto.WorkStatus;
-            existingReport.GeneralNotes = reportDto.GeneralNotes;
+            monthlyReport.TotalCompletedTasks = monthlyReport.DailyReports.Sum(r => r.CompletedTasks.Count);
+            monthlyReport.TotalPlannedTasks = monthlyReport.DailyReports.Sum(r => r.PlannedTasks.Count);
 
-            // Xử lý các công việc đã hoàn thành
-            existingReport.DailyReportCompletedTasks = reportDto.CompletedTasks
-                .Select(ct => new DailyReportCompletedTask
-                {
-                    ReportId = existingReport.ReportId,
-                    TaskId = ct.TaskId,
-                    CompletionDescription = ct.CompletionDescription
-                }).ToList();
+            return monthlyReport;
+        }
+
+        private async Task<DailyReportDto> MapToDailyReportDto(DailyReport report)
+        {
+            var employee = await _employeeRepository.GetByIdAsync(report.EmployeeId);
+
+            var dto = new DailyReportDto
+            {
+                ReportId = report.ReportId,
+                EmployeeId = report.EmployeeId,
+                EmployeeName = employee?.FullName ?? "Unknown",
+                ReportDate = report.ReportDate,
+                GeneralNotes = report.GeneralNotes
+            };
 
             
-            existingReport.DailyReportPlannedTasks = reportDto.PlannedTasks
-                .Select(pt => new DailyReportPlannedTask
+            foreach (var completedTask in report.DailyReportCompletedTasks)
+            {
+                var task = await _taskRepository.GetByIdAsync(completedTask.TaskId);
+                dto.CompletedTasks.Add(new CompletedTaskDetailDto
                 {
-                    ReportId = existingReport.ReportId,
-                    TaskId = pt.TaskId,
-                    PlannedDescription = pt.PlannedDescription
-                }).ToList();
+                    TaskId = completedTask.TaskId,
+                    TaskName = task?.TaskName ?? "Unknown Task",
+                    CompletionDescription = completedTask.CompletionDescription
+                });
+            }
 
-            await _reportRepository.UpdateAsync(existingReport);
-            return _mapper.Map<DailyReportDto>(existingReport);
-        }
+            
+            foreach (var plannedTask in report.DailyReportPlannedTasks)
+            {
+                var task = await _taskRepository.GetByIdAsync(plannedTask.TaskId);
+                dto.PlannedTasks.Add(new PlannedTaskDetailDto
+                {
+                    TaskId = plannedTask.TaskId,
+                    TaskName = task?.TaskName ?? "Unknown Task",
+                    PlannedDescription = plannedTask.PlannedDescription
+                });
+            }
 
-        public async Task FinalizeReportAsync(long reportId)
-        {
-            await _reportRepository.FinalizeReportAsync(reportId);
+            return dto;
         }
+        public async Task<List<MonthlyReportDto>> GetMonthlyReportsAsync(int year, int month)
+        {
+            var dailyReports = await _dailyReportRepository.GetByMonthAsync(year, month);
 
-        public async Task<List<TaskDto>> GetAvailableTasksForEmployeeAsync(int employeeId)
-        {
-            var tasks = await _reportRepository.GetAvailableTasksForEmployeeAsync(employeeId);
-            return _mapper.Map<List<TaskDto>>(tasks);
-        }
-        public async Task<List<CompletedTaskDto>> GetCompletedTasksByReportIdAsync(long reportId)
-        {
-            var completedTasks = await _reportRepository.GetCompletedTasksByReportIdAsync(reportId);
-            return _mapper.Map<List<CompletedTaskDto>>(completedTasks);
-        }
+           
+            var reportsByEmployee = dailyReports
+                .GroupBy(r => r.EmployeeId)
+                .ToList();
 
-        public async Task<List<PlannedTaskDto>> GetPlannedTasksByReportIdAsync(long reportId)
-        {
-            var plannedTasks = await _reportRepository.GetPlannedTasksByReportIdAsync(reportId);
-            return _mapper.Map<List<PlannedTaskDto>>(plannedTasks);
-        }
+            var monthlyReports = new List<MonthlyReportDto>();
 
-        public async Task<List<DateTime>> GetMissingReportDatesForEmployeeAsync(int employeeId)
-        {
-            return await _reportRepository.GetMissingReportDatesForEmployeeAsync(employeeId);
+            foreach (var employeeGroup in reportsByEmployee)
+            {
+                var employee = employeeGroup.First().Employee;
+                var monthlyReport = new MonthlyReportDto
+                {
+                    EmployeeId = employee.EmployeeId,
+                    EmployeeName = employee.FullName,
+                    Year = year,
+                    Month = month,
+                    DailyReports = new List<DailyReportDto>()
+                };
+
+                foreach (var report in employeeGroup)
+                {
+                    monthlyReport.DailyReports.Add(await MapToDailyReportDto(report));
+                }
+
+                monthlyReport.TotalCompletedTasks = monthlyReport.DailyReports
+                    .Sum(r => r.CompletedTasks.Count);
+                monthlyReport.TotalPlannedTasks = monthlyReport.DailyReports
+                    .Sum(r => r.PlannedTasks.Count);
+
+                monthlyReports.Add(monthlyReport);
+            }
+
+            return monthlyReports;
         }
     }
 }

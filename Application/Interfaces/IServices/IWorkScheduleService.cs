@@ -17,5 +17,6 @@ namespace Application.Interfaces.IServices
         Task<List<WorkScheduleDto>> GetEmployeeMonthlySchedule(int employeeId, int year, int month);
         Task<List<WorkScheduleDto>> GetEmployeeWeeklySchedule(int employeeId, DateTime startDate);
         Task<List<WorkScheduleMonthlyDto>> GetMonthlyWorkSchedules(int year, int month);
+        Task CheckAndSendEmailReminders();
     }
 }

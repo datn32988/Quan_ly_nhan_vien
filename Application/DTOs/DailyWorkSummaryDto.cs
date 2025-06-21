@@ -10,6 +10,7 @@ namespace Application.DTOs
     {
         public long Id { get; set; }
         public int EmployeeId { get; set; }
+        public string FullName { get; set; } = null;
         public DateTime WorkDate { get; set; }
         public DateTime? FirstCheckin { get; set; }
         public DateTime? LastCheckout { get; set; }
@@ -22,4 +23,14 @@ namespace Application.DTOs
         public string? Status { get; set; }
         public string? EmployeeName { get; set; }
     }
+
+    public class WorkSummaryMonthlyDto
+    {
+        public int EmployeeId { get; set; }
+        public string EmployeeName { get; set; } = null!;
+        public string Position { get; set; } = null!;
+        public List<DailyWorkSummaryDto> Summaries { get; set; } = new();
+    }
+
+   
 }

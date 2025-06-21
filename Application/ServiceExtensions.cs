@@ -14,9 +14,6 @@ namespace Application
     {
         public static void AddApplication(this IServiceCollection services)
         {
-            services.AddAutoMapper(typeof(AssemblyReference).Assembly);
-
-            services.AddScoped<IPositionService, PositionService>();
             
         }
     }

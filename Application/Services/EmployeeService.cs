@@ -3,6 +3,7 @@ using Application.Interfaces.IRepositories;
 using Application.Interfaces.IServices;
 using AutoMapper;
 using Domain.Entities;
+using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,16 +17,17 @@ namespace Application.Services
     {
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IMapper _mapper;
-
-        public EmployeeService(IEmployeeRepository employeeRepository, IMapper mapper)
+        private readonly IPasswordHasher _passwordHasher;
+        public EmployeeService(IEmployeeRepository employeeRepository, IMapper mapper, IPasswordHasher passwordHasher)
         {
             _employeeRepository = employeeRepository;
             _mapper = mapper;
+            _passwordHasher = passwordHasher;
         }
 
         public async Task<EmployeeDto?> GetEmployeeByIdAsync(int id)
         {
-            var employee = await _employeeRepository.GetByIdAsync(id, true);
+            var employee = await _employeeRepository.GetByIdAsync(id);
             if (employee == null) return null;
 
             var dto = _mapper.Map<EmployeeDto>(employee);
@@ -56,6 +58,12 @@ namespace Application.Services
         public async Task<EmployeeDto> CreateEmployeeAsync(EmployeeDto employeeDto)
         {
             var employee = _mapper.Map<Employee>(employeeDto);
+
+            if (!string.IsNullOrEmpty(employeeDto.Password))
+            {
+                employee.Password = _passwordHasher.HashPassword(employeeDto.Password);
+            }
+
             await _employeeRepository.AddAsync(employee);
             return _mapper.Map<EmployeeDto>(employee);
         }

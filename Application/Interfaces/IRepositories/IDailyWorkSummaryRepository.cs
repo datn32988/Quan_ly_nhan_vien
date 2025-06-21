@@ -16,5 +16,9 @@ namespace Application.Interfaces.IRepositories
         Task AddAsync(DailyWorkSummary summary);
         Task UpdateAsync(DailyWorkSummary summary);
         Task DeleteAsync(DailyWorkSummary summary);
+        Task<List<DailyWorkSummary>> GetByDateRangeWithEmployeeAsync(DateTime startDate, DateTime endDate);
+        Task<List<DailyWorkSummary>> GetByEmployeeAndDateRangeAsync(int employeeId, DateTime startDate, DateTime endDate);
+        Task<List<DailyWorkSummary>> GetSummariesByDateRangeAsync(DateTime start, DateTime end);
+
     }
 }

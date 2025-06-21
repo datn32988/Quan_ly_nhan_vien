@@ -49,6 +49,7 @@ namespace Application.Services
         public async Task<CheckinDto> CreateCheckinAsync(CheckinDto checkinDto)
         {
             var checkin = _mapper.Map<Checkin>(checkinDto);
+            checkin.CheckinTime = DateTime.Now;
             await _checkinRepository.AddAsync(checkin);
             return _mapper.Map<CheckinDto>(checkin);
         }

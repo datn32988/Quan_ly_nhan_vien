@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repositories
 {
-
     public class DailyReportRepository : IDailyReportRepository
     {
         private readonly ApplicationDbContext _context;
@@ -20,7 +19,14 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<DailyReport?> GetByIdAsync(long id)
+        public async Task<DailyReport> CreateAsync(DailyReport dailyReport)
+        {
+            _context.DailyReports.Add(dailyReport);
+            await _context.SaveChangesAsync();
+            return dailyReport;
+        }
+
+        public async Task<DailyReport?> GetByEmployeeAndDateAsync(int employeeId, DateTime date)
         {
             return await _context.DailyReports
                 .Include(r => r.Employee)
@@ -28,122 +34,39 @@ namespace Infrastructure.Repositories
                     .ThenInclude(ct => ct.Task)
                 .Include(r => r.DailyReportPlannedTasks)
                     .ThenInclude(pt => pt.Task)
-                .FirstOrDefaultAsync(r => r.ReportId == id);
-        }
-
-        public async Task<DailyReport?> GetByEmployeeAndDateAsync(int employeeId, DateTime date)
-        {
-            return await _context.DailyReports
-                .Include(r => r.DailyReportCompletedTasks)
-                .Include(r => r.DailyReportPlannedTasks)
                 .FirstOrDefaultAsync(r => r.EmployeeId == employeeId && r.ReportDate.Date == date.Date);
         }
 
-        public async Task<List<DailyReport>> GetByEmployeeAsync(int employeeId)
+        public async Task<List<DailyReport>> GetByEmployeeAndMonthAsync(int employeeId, int year, int month)
         {
             return await _context.DailyReports
-                .Where(r => r.EmployeeId == employeeId)
-                .OrderByDescending(r => r.ReportDate)
+                .Include(r => r.Employee)
+                .Include(r => r.DailyReportCompletedTasks)
+                    .ThenInclude(ct => ct.Task)
+                .Include(r => r.DailyReportPlannedTasks)
+                    .ThenInclude(pt => pt.Task)
+                .Where(r => r.EmployeeId == employeeId &&
+                           r.ReportDate.Year == year &&
+                           r.ReportDate.Month == month)
+                .OrderBy(r => r.ReportDate)
                 .ToListAsync();
         }
 
-        public async Task AddAsync(DailyReport report)
+        public async Task<bool> ExistsAsync(int employeeId, DateTime date)
         {
-            await _context.DailyReports.AddAsync(report);
-            await _context.SaveChangesAsync();
+            return await _context.DailyReports
+                .AnyAsync(r => r.EmployeeId == employeeId && r.ReportDate.Date == date.Date);
         }
-
-        public async Task UpdateAsync(DailyReport report)
+        public async Task<List<DailyReport>> GetByMonthAsync(int year, int month)
         {
-           
-            _context.Entry(report).State = EntityState.Modified;
-
-            var existingCompletedTasks = await _context.DailyReportCompletedTasks
-                .Where(ct => ct.ReportId == report.ReportId)
-                .ToListAsync();
-
-            _context.DailyReportCompletedTasks.RemoveRange(existingCompletedTasks);
-
-            foreach (var task in report.DailyReportCompletedTasks)
-            {
-                _context.Entry(task).State = EntityState.Added;
-            }
-
-            
-            var existingPlannedTasks = await _context.DailyReportPlannedTasks
-                .Where(pt => pt.ReportId == report.ReportId)
-                .ToListAsync();
-
-            _context.DailyReportPlannedTasks.RemoveRange(existingPlannedTasks);
-
-            foreach (var task in report.DailyReportPlannedTasks)
-            {
-                _context.Entry(task).State = EntityState.Added;
-            }
-
-            await _context.SaveChangesAsync();
-        }
-        public async Task<List<EmployeesList>> GetAvailableTasksForEmployeeAsync(int employeeId)
-        {
-            return await _context.EmployeesLists
-                .Where(t => t.AssignedToEmployeeId == employeeId && t.Status != "Completed")
-                .Include(t => t.AssignedToEmployee)
+            return await _context.DailyReports
+                .Where(r => r.ReportDate.Year == year && r.ReportDate.Month == month)
+                .Include(r => r.Employee)
+                .Include(r => r.DailyReportCompletedTasks)
+                    .ThenInclude(ct => ct.Task)
+                .Include(r => r.DailyReportPlannedTasks)
+                    .ThenInclude(pt => pt.Task)
                 .ToListAsync();
         }
-
-        public async Task FinalizeReportAsync(long reportId)
-        {
-            var report = await _context.DailyReports.FindAsync(reportId);
-            if (report != null)
-            {
-                report.IsFinalized = true;
-                report.FinalizedTime = DateTime.UtcNow;
-                await _context.SaveChangesAsync();
-            }
-        }
-        public async Task<List<DailyReportCompletedTask>> GetCompletedTasksByReportIdAsync(long reportId)
-        {
-            return await _context.DailyReportCompletedTasks
-                .Include(ct => ct.Task)
-                .Where(ct => ct.ReportId == reportId)
-                .ToListAsync();
-        }
-
-        public async Task<List<DailyReportPlannedTask>> GetPlannedTasksByReportIdAsync(long reportId)
-        {
-            return await _context.DailyReportPlannedTasks
-                .Include(pt => pt.Task)
-                .Where(pt => pt.ReportId == reportId)
-                .ToListAsync();
-        }
-
-        public async Task<List<DateTime>> GetMissingReportDatesForEmployeeAsync(int employeeId)
-        {
-            var employee = await _context.Employees.FindAsync(employeeId);
-            if (employee == null) return new List<DateTime>();
-
-            var startDate = employee.HireDate.Date;
-            var endDate = DateTime.Today.AddDays(-1); 
-
-            var existingReportDates = await _context.DailyReports
-                .Where(r => r.EmployeeId == employeeId)
-                .Select(r => r.ReportDate.Date)
-                .ToListAsync();
-
-            var missingDates = new List<DateTime>();
-            for (var date = startDate; date <= endDate; date = date.AddDays(1))
-            {
-                if (date.DayOfWeek != DayOfWeek.Saturday && date.DayOfWeek != DayOfWeek.Sunday)
-                {
-                    if (!existingReportDates.Contains(date))
-                    {
-                        missingDates.Add(date);
-                    }
-                }
-            }
-
-            return missingDates;
-        }
-
     }
 }

@@ -78,5 +78,18 @@ namespace WebAPI.Controllers
             var schedules = await _workScheduleService.GetMonthlyWorkSchedules(year, month);
             return Ok(schedules);
         }
+        [HttpPost("send-email-reminders")]
+        public async Task<IActionResult> SendEmailReminders()
+        {
+            try
+            {
+                await _workScheduleService.CheckAndSendEmailReminders();
+                return Ok(new { Message = "Email reminders sent successfully." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = $"Failed to send email reminders: {ex.Message}" });
+            }
+        }
     }
 }

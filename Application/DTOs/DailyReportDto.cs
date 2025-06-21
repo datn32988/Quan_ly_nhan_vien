@@ -10,13 +10,10 @@ namespace Application.DTOs
     {
         public long ReportId { get; set; }
         public int EmployeeId { get; set; }
+        public string EmployeeName { get; set; } = null!;
         public DateTime ReportDate { get; set; }
-        public decimal? TotalWorkHours { get; set; }
-        public string? WorkStatus { get; set; }
         public string? GeneralNotes { get; set; }
-        public bool IsFinalized { get; set; }
-        public DateTime? FinalizedTime { get; set; }
-        public List<CompletedTaskDto> CompletedTasks { get; set; } = new();
-        public List<PlannedTaskDto> PlannedTasks { get; set; } = new();
+        public List<CompletedTaskDetailDto> CompletedTasks { get; set; } = new();
+        public List<PlannedTaskDetailDto> PlannedTasks { get; set; } = new();
     }
 }

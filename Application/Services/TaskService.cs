@@ -14,71 +14,73 @@ namespace Application.Services
     public class TaskService : ITaskService
     {
         private readonly ITaskRepository _taskRepository;
-        private readonly IEmployeeRepository _employeeRepository;
         private readonly IMapper _mapper;
 
-        public TaskService(ITaskRepository taskRepository,
-                         IEmployeeRepository employeeRepository,
-                         IMapper mapper)
+        public TaskService(ITaskRepository taskRepository,IMapper mapper)
         {
             _taskRepository = taskRepository;
-            _employeeRepository = employeeRepository;
             _mapper = mapper;
         }
 
-        public async Task<TaskDto> GetTaskByIdAsync(long taskId)
+        public async Task<List<AvailableTaskDto>> GetAvailableTasksForPlanningAsync()
         {
-            var task = await _taskRepository.GetByIdWithEmployeeAsync(taskId);
-            
-            return _mapper.Map<TaskDto>(task);
+            var tasks = await _taskRepository.GetAvailableTasksForPlanningAsync();
+
+            return tasks.Select(t => new AvailableTaskDto
+            {
+                TaskId = t.TaskId,
+                TaskName = t.TaskName,
+                Description = t.Description,
+                RelatedProject = t.RelatedProject,
+                Priority = t.Priority,
+                CreationDate = t.CreationDate
+            }).ToList();
         }
-
-        public async Task<List<TaskDto>> GetTasksByEmployeeAsync(int employeeId)
-        {
-
-            var tasks = await _taskRepository.GetByEmployeeAsync(employeeId);
-            return _mapper.Map<List<TaskDto>>(tasks);
-        }
-
-        public async Task<TaskDto> CreateTaskAsync(CreateTaskDto taskDto)
-        { 
-
-            var task = _mapper.Map<EmployeesList>(taskDto);
-            task.CreationDate = DateTime.Now;
-            task.Status = "Pending";
-
-            await _taskRepository.AddAsync(task);
-            return await GetTaskByIdAsync(task.TaskId);
-        }
-
-        public async Task<TaskDto> UpdateTaskAsync(long taskId, UpdateTaskDto taskDto)
+        public async Task<AvailableTaskDto?> GetByIdAsync(long taskId)
         {
             var task = await _taskRepository.GetByIdAsync(taskId);
-          
+            if (task == null) return null;
+            return _mapper.Map<AvailableTaskDto>(task);
+        }
+        public async Task<AvailableTaskDto> CreateTaskAsync(CreateTaskDto createTaskDto)
+        {
+            if (string.IsNullOrEmpty(createTaskDto.TaskName))
+                throw new ArgumentException("TaskName is required");
 
-            _mapper.Map(taskDto, task);
-            await _taskRepository.UpdateAsync(task);
+            if (string.IsNullOrEmpty(createTaskDto.Priority))
+                createTaskDto.Priority = "Medium";
 
-            return await GetTaskByIdAsync(taskId);
+            var task = _mapper.Map<EmployeesList>(createTaskDto);
+            task.CreationDate = DateTime.UtcNow;
+            task.Status = "New";
+            var createdTask = await _taskRepository.AddAsync(task);
+            return _mapper.Map<AvailableTaskDto>(createdTask);
+        }
+
+
+        public async Task<AvailableTaskDto> UpdateTaskAsync(UpdateTaskDto updateTaskDto)
+        {
+            var existingTask = await _taskRepository.GetByIdAsync(updateTaskDto.TaskId);
+            if (existingTask == null)
+            {
+                throw new KeyNotFoundException($"Task with ID {updateTaskDto.TaskId} not found.");
+            }
+
+            _mapper.Map(updateTaskDto, existingTask);
+            await _taskRepository.UpdateAsync(existingTask);
+
+            return _mapper.Map<AvailableTaskDto>(existingTask);
         }
 
         public async Task DeleteTaskAsync(long taskId)
         {
             var task = await _taskRepository.GetByIdAsync(taskId);
-          
+            if (task == null)
+            {
+                throw new KeyNotFoundException($"Task with ID {taskId} not found.");
+            }
 
             await _taskRepository.DeleteAsync(task);
-        }
-
-        public async Task<TaskDto> UpdateTaskStatusAsync(long taskId, string status)
-        {
-            var task = await _taskRepository.GetByIdAsync(taskId);
-
-            task.Status = status;
-            if (status == "Completed") task.CompletionDate = DateTime.Now;
-
-            await _taskRepository.UpdateAsync(task);
-            return await GetTaskByIdAsync(taskId);
         }
     }
 }

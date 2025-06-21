@@ -58,7 +58,7 @@ namespace Application.Services
         {
             var workPlan = await _repository.GetByIdAsync(id);
 
-            // Cập nhật trạng thái hoàn thành
+            
             if (dto.IsCompleted.HasValue && dto.IsCompleted.Value && !workPlan.IsCompleted)
             {
                 workPlan.CompletionDate = DateTime.Now;
@@ -83,11 +83,15 @@ namespace Application.Services
         public async Task<WorkPlanDto> MarkAsCompletedAsync(long id)
         {
             var workPlan = await _repository.GetByIdAsync(id);
+            if (workPlan == null)
+                throw new KeyNotFoundException($"WorkPlan with id {id} not found.");
+
             workPlan.IsCompleted = true;
             workPlan.CompletionDate = DateTime.Now;
 
             await _repository.UpdateAsync(workPlan);
             return await GetByIdAsync(id);
         }
+
     }
 }

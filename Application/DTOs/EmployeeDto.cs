@@ -19,8 +19,7 @@ namespace Application.DTOs
         public string EmploymentStatus { get; set; } = null!;
         public int PositionId { get; set; }
         public int? ManagerId { get; set; }
-
-        // Thông tin tham chiếu
+        public string? Password {  get; set; }
         public string? PositionName { get; set; }
         public string? ManagerName { get; set; }
     }

@@ -19,17 +19,9 @@ namespace Application.DTOs
 
     public class CreateWorkScheduleDto
     {
-        [Required]
         public int EmployeeId { get; set; }
-
-        [Required]
         public DateTime ScheduleDate { get; set; }
-
-        [Required]
-        [StringLength(20)]
         public string ScheduleType { get; set; } = null!;
-
-        [StringLength(500)]
         public string? Notes { get; set; }
     }
 

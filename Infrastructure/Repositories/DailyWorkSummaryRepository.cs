@@ -67,5 +67,36 @@ namespace Infrastructure.Repositories
             _context.DailyWorkSummaries.Remove(summary);
             await _context.SaveChangesAsync();
         }
+        public async Task<List<DailyWorkSummary>> GetByDateRangeWithEmployeeAsync(DateTime startDate, DateTime endDate)
+        {
+            return await _context.DailyWorkSummaries
+                .Include(d => d.Employee)
+                    .ThenInclude(e => e.Position)
+                        .ThenInclude(p => p.Description)
+                .Where(d => d.WorkDate >= startDate && d.WorkDate <= endDate)
+                .OrderBy(d => d.EmployeeId)
+                .ThenBy(d => d.WorkDate)
+                .ToListAsync();
+        }
+
+        public async Task<List<DailyWorkSummary>> GetByEmployeeAndDateRangeAsync(int employeeId, DateTime startDate, DateTime endDate)
+        {
+            return await _context.DailyWorkSummaries
+                .Include(d => d.Employee)
+                .Where(d => d.EmployeeId == employeeId &&
+                           d.WorkDate >= startDate &&
+                           d.WorkDate <= endDate)
+                .OrderBy(d => d.WorkDate)
+                .ToListAsync();
+        }
+        public async Task<List<DailyWorkSummary>> GetSummariesByDateRangeAsync(DateTime start, DateTime end)
+        {
+            return await _context.DailyWorkSummaries
+                .Include(s => s.Employee)
+                    .ThenInclude(e => e.Position)
+                .Where(s => s.WorkDate >= start && s.WorkDate <= end)
+                .ToListAsync();
+        }
+
     }
 }

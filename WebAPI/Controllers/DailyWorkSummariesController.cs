@@ -31,19 +31,13 @@ namespace WebAPI.Controllers
             return Ok(summaries);
         }
 
-        [HttpGet("employee/{employeeId}/date/{date}")]
-        public async Task<ActionResult<DailyWorkSummaryDto>> GetDailySummary(int employeeId, DateTime date)
+        [HttpGet("monthly")]
+        public async Task<ActionResult<List<WorkSummaryMonthlyDto>>> GetMonthlySummary(
+        [FromQuery] int year, [FromQuery] int month)
         {
-            var summary = await _summaryService.GetDailySummaryAsync(employeeId, date);
-            if (summary == null) return NotFound();
-            return Ok(summary);
+            var result = await _summaryService.GetMonthlyWorkSummaries(year, month);
+            return Ok(result);
         }
 
-        [HttpGet("employee/{employeeId}/month/{year}/{month}")]
-        public async Task<ActionResult<List<DailyWorkSummaryDto>>> GetMonthlySummaries(int employeeId, int year, int month)
-        {
-            var summaries = await _summaryService.GetMonthlySummariesAsync(employeeId, year, month);
-            return Ok(summaries);
-        }
     }
 }

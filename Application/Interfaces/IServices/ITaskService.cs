@@ -9,11 +9,11 @@ namespace Application.Interfaces.IServices
 {
     public interface ITaskService
     {
-        Task<TaskDto> GetTaskByIdAsync(long taskId);
-        Task<List<TaskDto>> GetTasksByEmployeeAsync(int employeeId);
-        Task<TaskDto> CreateTaskAsync(CreateTaskDto taskDto);
-        Task<TaskDto> UpdateTaskAsync(long taskId, UpdateTaskDto taskDto);
+        Task<List<AvailableTaskDto>> GetAvailableTasksForPlanningAsync();
+        Task<AvailableTaskDto> GetByIdAsync(long taskId);
+        Task<AvailableTaskDto> CreateTaskAsync(CreateTaskDto createTaskDto);
+        Task<AvailableTaskDto> UpdateTaskAsync(UpdateTaskDto updateTaskDto);
         Task DeleteTaskAsync(long taskId);
-        Task<TaskDto> UpdateTaskStatusAsync(long taskId, string status);
     }
+
 }

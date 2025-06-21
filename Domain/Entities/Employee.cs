@@ -26,6 +26,7 @@ public partial class Employee
     public int PositionId { get; set; }
 
     public int? ManagerId { get; set; }
+    public string? Password { get; set; }
 
     public virtual ICollection<Checkin> Checkins { get; set; } = new List<Checkin>();
 

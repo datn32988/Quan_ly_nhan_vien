@@ -17,15 +17,18 @@ namespace Application.Services
         private readonly IDailyWorkSummaryRepository _summaryRepository;
         private readonly ICheckinRepository _checkinRepository;
         private readonly IMapper _mapper;
+        private readonly IEmployeeRepository _employeeRepository;
 
         public DailyWorkSummaryService(
             IDailyWorkSummaryRepository summaryRepository,
             ICheckinRepository checkinRepository,
-            IMapper mapper)
+            IMapper mapper,
+            IEmployeeRepository employeeRepository)
         {
             _summaryRepository = summaryRepository;
             _checkinRepository = checkinRepository;
             _mapper = mapper;
+            _employeeRepository = employeeRepository;
         }
 
         public async Task<DailyWorkSummaryDto?> GetSummaryByIdAsync(long id)
@@ -121,5 +124,53 @@ namespace Application.Services
                 await _summaryRepository.UpdateAsync(summary);
             }
         }
+        public async Task<List<WorkSummaryMonthlyDto>> GetMonthlyWorkSummaries(int year, int month)
+        {
+            var startDate = new DateTime(year, month, 1);
+            var endDate = startDate.AddMonths(1).AddDays(-1);
+
+            var employees = await _employeeRepository.GetAllAsync(includeDetails: true);
+            var summaries = await _summaryRepository.GetSummariesByDateRangeAsync(startDate, endDate);
+
+            var result = new List<WorkSummaryMonthlyDto>();
+
+            foreach (var emp in employees)
+            {
+                var empSummaries = summaries
+                    .Where(s => s.EmployeeId == emp.EmployeeId)
+                    .OrderBy(s => s.WorkDate)
+                    .Select(s => new DailyWorkSummaryDto
+                    {
+                        WorkDate = s.WorkDate,
+                        FirstCheckin = s.FirstCheckin,
+                        LastCheckout = s.LastCheckout,
+                        TotalCalculatedHours = s.TotalCalculatedHours,
+                        Status = s.Status ?? "",
+                        IsLateArrival = s.IsLateArrival,
+                        IsEarlyDeparture = s.IsEarlyDeparture,
+                        IsUnderHours = s.IsUnderHours,
+                        IsFullDay = s.IsFullDay,
+                        IsHalfDay = s.IsHalfDay
+                    }).ToList();
+
+                var monthly = new WorkSummaryMonthlyDto
+                {
+                    EmployeeId = emp.EmployeeId,
+                    EmployeeName = emp.FullName,
+                    Position = emp.Position?.PositionName ?? "N/A",
+                    Summaries = empSummaries
+                };
+
+                result.Add(monthly);
+            }
+
+            return result;
+        }
+
+
+
     }
+
 }
+
+

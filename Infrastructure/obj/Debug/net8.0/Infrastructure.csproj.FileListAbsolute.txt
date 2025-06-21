@@ -2,7 +2,9 @@ D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Infrastructure
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Application.dll
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Application.pdb
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Domain.pdb
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,5 +17,3 @@ D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\obj\Debug\net8.0\refint\Infrast
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
-D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Application.dll
-D:\TTDN-BackEnd\Quan_ly_nhan_vien\Infrastructure\bin\Debug\net8.0\Application.pdb

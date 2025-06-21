@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,18 +10,12 @@ namespace Application.Interfaces.IRepositories
 {
     public interface IDailyReportRepository
     {
-        Task<DailyReport?> GetByIdAsync(long id);
+        Task<DailyReport> CreateAsync(DailyReport dailyReport);
         Task<DailyReport?> GetByEmployeeAndDateAsync(int employeeId, DateTime date);
-        Task<List<DailyReport>> GetByEmployeeAsync(int employeeId);
-        Task<List<EmployeesList>> GetAvailableTasksForEmployeeAsync(int employeeId);
-        Task AddAsync(DailyReport report);
-        Task UpdateAsync(DailyReport report);
-        Task FinalizeReportAsync(long reportId);
-        Task<List<DailyReportCompletedTask>> GetCompletedTasksByReportIdAsync(long reportId);
-        Task<List<DailyReportPlannedTask>> GetPlannedTasksByReportIdAsync(long reportId);
-        Task<List<DateTime>> GetMissingReportDatesForEmployeeAsync(int employeeId);
+        Task<List<DailyReport>> GetByEmployeeAndMonthAsync(int employeeId, int year, int month);
+        Task<bool> ExistsAsync(int employeeId, DateTime date);
+        Task<List<DailyReport>> GetByMonthAsync(int year, int month);
+
+        
     }
-
 }
-
-

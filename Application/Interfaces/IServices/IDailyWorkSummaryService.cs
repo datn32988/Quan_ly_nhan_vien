@@ -1,4 +1,5 @@
 ﻿using Application.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,7 @@ namespace Application.Interfaces.IServices
         Task<List<DailyWorkSummaryDto>> GetSummariesByEmployeeAsync(int employeeId);
         Task<List<DailyWorkSummaryDto>> GetMonthlySummariesAsync(int employeeId, int year, int month);
         Task ProcessCheckinAsync(int employeeId, DateTime checkinTime);
+
+        Task<List<WorkSummaryMonthlyDto>> GetMonthlyWorkSummaries(int year, int month);
     }
 }
