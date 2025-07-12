@@ -10,8 +10,8 @@ namespace Application.Interfaces.IServices
     public interface IDailyReportService
     {
         Task<DailyReportDto> CreateDailyReportAsync(DailyReportCreateDto request);
-        Task<DailyReportDto?> GetDailyReportAsync(int employeeId, DateTime date);
-        Task<MonthlyReportDto?> GetMonthlyReportAsync(int employeeId, int year, int month);
+        Task<DailyReportDto?> GetDailyReportAsync(long employeeId, DateTime date);
+        Task<MonthlyReportDto?> GetMonthlyReportAsync(long employeeId, int year, int month);
         Task<List<MonthlyReportDto>> GetMonthlyReportsAsync(int year, int month);
     }
 }

@@ -5,7 +5,7 @@ namespace Domain.Entities;
 
 public partial class Employee
 {
-    public int EmployeeId { get; set; }
+    public long EmployeeId { get; set; }
 
     public string FullName { get; set; } = null!;
 
@@ -23,10 +23,12 @@ public partial class Employee
 
     public string EmploymentStatus { get; set; } = null!;
 
-    public int PositionId { get; set; }
+    public long PositionId { get; set; }
 
-    public int? ManagerId { get; set; }
+    public long? ManagerId { get; set; }
     public string? Password { get; set; }
+    public long? DepartmentId { get; set; }
+    public virtual Department? Department { get; set; }
 
     public virtual ICollection<Checkin> Checkins { get; set; } = new List<Checkin>();
 
@@ -45,4 +47,6 @@ public partial class Employee
     public virtual ICollection<WorkPlan> WorkPlans { get; set; } = new List<WorkPlan>();
 
     public virtual ICollection<WorkSchedule> WorkSchedules { get; set; } = new List<WorkSchedule>();
+    public virtual ICollection<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
+
 }

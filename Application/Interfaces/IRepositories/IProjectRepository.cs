@@ -1,0 +1,18 @@
+﻿using Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.Interfaces.IRepositories
+{
+    public interface IProjectRepository
+    {
+        Task<Project?> GetByIdAsync(long id);
+        Task<List<Project>> GetAllAsync();
+        Task AddAsync(Project project);
+        Task UpdateAsync(Project project);
+        Task DeleteAsync(Project project);
+    }
+}

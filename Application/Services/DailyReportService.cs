@@ -72,7 +72,7 @@ namespace Application.Services
             return await MapToDailyReportDto(createdReport);
         }
 
-        public async Task<DailyReportDto?> GetDailyReportAsync(int employeeId, DateTime date)
+        public async Task<DailyReportDto?> GetDailyReportAsync(long employeeId, DateTime date)
         {
             var report = await _dailyReportRepository.GetByEmployeeAndDateAsync(employeeId, date.Date);
             if (report == null) return null;
@@ -80,7 +80,7 @@ namespace Application.Services
             return await MapToDailyReportDto(report);
         }
 
-        public async Task<MonthlyReportDto?> GetMonthlyReportAsync(int employeeId, int year, int month)
+        public async Task<MonthlyReportDto?> GetMonthlyReportAsync(long employeeId, int year, int month)
         {
             var employee = await _employeeRepository.GetByIdAsync(employeeId);
             if (employee == null) return null;

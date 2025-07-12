@@ -13,7 +13,7 @@ namespace Application.Interfaces.IRepositories
         Task<WorkSchedule?> GetByIdAsync(long id);
         Task<WorkSchedule?> GetByIdWithEmployeeAsync(long id);
         Task<List<WorkSchedule>> GetFilteredAsync(
-            int? employeeId,
+            long? employeeId,
             DateTime? fromDate,
             DateTime? toDate,
             string? scheduleType);

@@ -10,7 +10,7 @@ namespace Application.DTOs
     public class WorkPlanDto
     {
         public long WorkPlanId { get; set; }
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public string EmployeeName { get; set; } = null!;
         public string TaskDescription { get; set; } = null!;
         public DateTime PlannedDate { get; set; }
@@ -20,7 +20,7 @@ namespace Application.DTOs
 
     public class CreateWorkPlanDto
     {
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public string TaskDescription { get; set; } = null!;
         public DateTime PlannedDate { get; set; }
     }
@@ -34,7 +34,7 @@ namespace Application.DTOs
 
     public class WorkPlanFilterDto
     {
-        public int? EmployeeId { get; set; }
+        public long? EmployeeId { get; set; }
         public DateTime? FromDate { get; set; }
         public DateTime? ToDate { get; set; }
         public bool? IsCompleted { get; set; }

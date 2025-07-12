@@ -28,19 +28,19 @@ namespace Application.Services
             return _mapper.Map<CheckinDto>(checkin);
         }
 
-        public async Task<List<CheckinDto>> GetCheckinsByEmployeeAsync(int employeeId)
+        public async Task<List<CheckinDto>> GetCheckinsByEmployeeAsync(long employeeId)
         {
             var checkins = await _checkinRepository.GetByEmployeeIdAsync(employeeId);
             return _mapper.Map<List<CheckinDto>>(checkins);
         }
 
-        public async Task<List<CheckinDto>> GetCheckinsByEmployeeAndDateAsync(int employeeId, DateTime date)
+        public async Task<List<CheckinDto>> GetCheckinsByEmployeeAndDateAsync(long employeeId, DateTime date)
         {
             var checkins = await _checkinRepository.GetByEmployeeAndDateAsync(employeeId, date);
             return _mapper.Map<List<CheckinDto>>(checkins);
         }
 
-        public async Task<List<CheckinDto>> GetCheckinsByEmployeeAndMonthAsync(int employeeId, int year, int month)
+        public async Task<List<CheckinDto>> GetCheckinsByEmployeeAndMonthAsync(long employeeId, int year, int month)
         {
             var checkins = await _checkinRepository.GetByEmployeeAndMonthAsync(employeeId, year, month);
             return _mapper.Map<List<CheckinDto>>(checkins);

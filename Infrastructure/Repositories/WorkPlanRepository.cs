@@ -32,7 +32,7 @@ namespace Infrastructure.Repositories
         }
 
         public async Task<List<WorkPlan>> GetFilteredAsync(
-            int? employeeId,
+            long? employeeId,
             DateTime? fromDate,
             DateTime? toDate,
             bool? isCompleted)

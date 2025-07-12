@@ -8,7 +8,7 @@ namespace Application.DTOs
 {
     public class EmployeeDto
     {
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public string FullName { get; set; } = null!;
         public string? Gender { get; set; }
         public DateTime? DateOfBirth { get; set; }

@@ -30,21 +30,21 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("employee/{employeeId}")]
-        public async Task<ActionResult<List<CheckinDto>>> GetByEmployee(int employeeId)
+        public async Task<ActionResult<List<CheckinDto>>> GetByEmployee(long employeeId)
         {
             var checkins = await _checkinService.GetCheckinsByEmployeeAsync(employeeId);
             return Ok(checkins);
         }
 
         [HttpGet("employee/{employeeId}/date/{date}")]
-        public async Task<ActionResult<List<CheckinDto>>> GetByEmployeeAndDate(int employeeId, DateTime date)
+        public async Task<ActionResult<List<CheckinDto>>> GetByEmployeeAndDate(long employeeId, DateTime date)
         {
             var checkins = await _checkinService.GetCheckinsByEmployeeAndDateAsync(employeeId, date);
             return Ok(checkins);
         }
 
         [HttpGet("employee/{employeeId}/month/{year}/{month}")]
-        public async Task<ActionResult<List<CheckinDto>>> GetByEmployeeAndMonth(int employeeId, int year, int month)
+        public async Task<ActionResult<List<CheckinDto>>> GetByEmployeeAndMonth(long employeeId, int year, int month)
         {
             var checkins = await _checkinService.GetCheckinsByEmployeeAndMonthAsync(employeeId, year, month);
             return Ok(checkins);

@@ -7,7 +7,7 @@ public partial class WorkPlan
 {
     public long WorkPlanId { get; set; }
 
-    public int EmployeeId { get; set; }
+    public long EmployeeId { get; set; }
 
     public string TaskDescription { get; set; } = null!;
 

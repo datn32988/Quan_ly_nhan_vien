@@ -8,13 +8,13 @@ namespace Application.DTOs
 {
     public class EmployeeInfoDto
     {
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public string FullName { get; set; } = null!;
         public string Email { get; set; } = null!;
         public string? Position { get; set; }
         public string? Department { get; set; }
         public string EmploymentStatus { get; set; } = null!;
-        public int? ManagerId { get; set; }
+        public long? ManagerId { get; set; }
         public string? ManagerName { get; set; }
     }
 }

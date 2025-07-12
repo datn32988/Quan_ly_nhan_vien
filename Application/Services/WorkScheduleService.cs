@@ -73,7 +73,7 @@ namespace Application.Services
             await _repository.DeleteAsync(schedule);
         }
 
-        public async Task<List<WorkScheduleDto>> GetEmployeeMonthlySchedule(int employeeId, int year, int month)
+        public async Task<List<WorkScheduleDto>> GetEmployeeMonthlySchedule(long employeeId, int year, int month)
         {
             var startDate = new DateTime(year, month, 1);
             var endDate = startDate.AddMonths(1).AddDays(-1);
@@ -87,7 +87,7 @@ namespace Application.Services
             return _mapper.Map<List<WorkScheduleDto>>(schedules);
         }
 
-        public async Task<List<WorkScheduleDto>> GetEmployeeWeeklySchedule(int employeeId, DateTime startDate)
+        public async Task<List<WorkScheduleDto>> GetEmployeeWeeklySchedule(long employeeId, DateTime startDate)
         {
             var endDate = startDate.AddDays(6);
 

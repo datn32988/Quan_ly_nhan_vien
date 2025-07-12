@@ -19,7 +19,7 @@ namespace Application.DTOs
 
     public class CreateWorkScheduleDto
     {
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public DateTime ScheduleDate { get; set; }
         public string ScheduleType { get; set; } = null!;
         public string? Notes { get; set; }
@@ -34,14 +34,14 @@ namespace Application.DTOs
 
     public class WorkScheduleFilterDto
     {
-        public int? EmployeeId { get; set; }
+        public long? EmployeeId { get; set; }
         public DateTime? FromDate { get; set; }
         public DateTime? ToDate { get; set; }
         public string? ScheduleType { get; set; }
     }
     public class WorkScheduleMonthlyDto
     {
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public string EmployeeName { get; set; } = null!;
         public string Position { get; set; } = null!;
         public List<DailyScheduleDto> Schedules { get; set; } = new();

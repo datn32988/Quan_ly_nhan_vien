@@ -9,13 +9,13 @@ namespace Application.Interfaces.IRepositories
 {
     public interface IEmployeeRepository
     {
-        Task<Employee?> GetByIdAsync(int id);
+        Task<Employee?> GetByIdAsync(long id);
         Task<List<Employee>> GetAllAsync(bool includeDetails = false);
-        Task<List<Employee>> GetEmployeesByManagerAsync(int managerId);
+        Task<List<Employee>> GetEmployeesByManagerAsync(long managerId);
         Task AddAsync(Employee employee);
         Task UpdateAsync(Employee employee);
         Task DeleteAsync(Employee employee);
-        Task<bool> ExistsAsync(int id);
+        Task<bool> ExistsAsync(long id);
         Task<List<Employee>> GetAllWithPositionAndDepartmentAsync();
     }
 }

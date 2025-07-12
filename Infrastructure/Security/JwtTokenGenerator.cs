@@ -21,7 +21,7 @@ namespace Infrastructure.Security
             _expirationMinutes = int.Parse(configuration["Jwt:ExpirationMinutes"] ?? "60");
         }
 
-        public string GenerateToken(int employeeId, string email, string fullName, string? position)
+        public string GenerateToken(long employeeId, string email, string fullName, string? position)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_secretKey));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);

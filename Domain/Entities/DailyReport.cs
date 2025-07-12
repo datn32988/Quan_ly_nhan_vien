@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities;
 
 public partial class DailyReport
 {
     public long ReportId { get; set; }
-
-    public int EmployeeId { get; set; }
+    [Column(TypeName = "bigint")]
+    public long EmployeeId { get; set; }
 
     public DateTime ReportDate { get; set; }
 

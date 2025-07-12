@@ -27,16 +27,15 @@ namespace Infrastructure.Repositories
                 .FirstOrDefaultAsync(e => e.Email == email);
         }
 
-        public async Task<Employee?> GetEmployeeByIdWithDetailsAsync(int employeeId)
+        public async Task<Employee?> GetEmployeeByIdWithDetailsAsync(long employeeId)
         {
             return await _context.Employees
                 .Include(e => e.Position)
-                    .ThenInclude(p => p.Description)
                 .Include(e => e.Manager)
                 .FirstOrDefaultAsync(e => e.EmployeeId == employeeId);
         }
 
-        public async Task<bool> UpdatePasswordAsync(int employeeId, string hashedPassword)
+        public async Task<bool> UpdatePasswordAsync(long employeeId, string hashedPassword)
         {
             var employee = await _context.Employees.FindAsync(employeeId);
             if (employee == null) return false;

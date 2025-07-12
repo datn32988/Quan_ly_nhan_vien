@@ -25,7 +25,7 @@ namespace Application.Services
             _passwordHasher = passwordHasher;
         }
 
-        public async Task<EmployeeDto?> GetEmployeeByIdAsync(int id)
+        public async Task<EmployeeDto?> GetEmployeeByIdAsync(long id)
         {
             var employee = await _employeeRepository.GetByIdAsync(id);
             if (employee == null) return null;
@@ -49,7 +49,7 @@ namespace Application.Services
             }).ToList();
         }
 
-        public async Task<List<EmployeeDto>> GetEmployeesByManagerAsync(int managerId)
+        public async Task<List<EmployeeDto>> GetEmployeesByManagerAsync(long managerId)
         {
             var employees = await _employeeRepository.GetEmployeesByManagerAsync(managerId);
             return _mapper.Map<List<EmployeeDto>>(employees);
@@ -68,7 +68,7 @@ namespace Application.Services
             return _mapper.Map<EmployeeDto>(employee);
         }
 
-        public async Task UpdateEmployeeAsync(int id, EmployeeDto employeeDto)
+        public async Task UpdateEmployeeAsync(long id, EmployeeDto employeeDto)
         {
             if (id != employeeDto.EmployeeId)
                 throw new ArgumentException("ID mismatch");
@@ -81,7 +81,7 @@ namespace Application.Services
             await _employeeRepository.UpdateAsync(existingEmployee);
         }
 
-        public async Task DeleteEmployeeAsync(int id)
+        public async Task DeleteEmployeeAsync(long id)
         {
             var employee = await _employeeRepository.GetByIdAsync(id);
             if (employee == null)

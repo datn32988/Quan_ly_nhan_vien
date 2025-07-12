@@ -43,7 +43,7 @@ namespace WebAPI.Controllers
             }
         }
         [HttpGet("daily-reportbyId")]
-        public async Task<ActionResult<DailyReportDto>> GetDailyReport([FromQuery] int employeeId, [FromQuery] DateTime date)
+        public async Task<ActionResult<DailyReportDto>> GetDailyReport([FromQuery] long employeeId, [FromQuery] DateTime date)
         {
             try
             {
@@ -60,7 +60,7 @@ namespace WebAPI.Controllers
         }
    
         [HttpGet("daily-report-month-by-Id")]
-        public async Task<ActionResult<MonthlyReportDto>> GetMonthlyReport([FromQuery] int employeeId, [FromQuery] int year, [FromQuery] int month)
+        public async Task<ActionResult<MonthlyReportDto>> GetMonthlyReport([FromQuery] long employeeId, [FromQuery] int year, [FromQuery] int month)
         {
             try
             {

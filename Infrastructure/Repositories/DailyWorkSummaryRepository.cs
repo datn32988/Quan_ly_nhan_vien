@@ -26,13 +26,13 @@ namespace Infrastructure.Repositories
                 .FirstOrDefaultAsync(s => s.Id == id);
         }
 
-        public async Task<DailyWorkSummary?> GetByEmployeeAndDateAsync(int employeeId, DateTime date)
+        public async Task<DailyWorkSummary?> GetByEmployeeAndDateAsync(long employeeId, DateTime date)
         {
             return await _context.DailyWorkSummaries
                 .FirstOrDefaultAsync(s => s.EmployeeId == employeeId && s.WorkDate.Date == date.Date);
         }
 
-        public async Task<List<DailyWorkSummary>> GetByEmployeeAsync(int employeeId)
+        public async Task<List<DailyWorkSummary>> GetByEmployeeAsync(long employeeId)
         {
             return await _context.DailyWorkSummaries
                 .Where(s => s.EmployeeId == employeeId)
@@ -40,7 +40,7 @@ namespace Infrastructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<List<DailyWorkSummary>> GetByEmployeeAndMonthAsync(int employeeId, int year, int month)
+        public async Task<List<DailyWorkSummary>> GetByEmployeeAndMonthAsync(long employeeId, int year, int month)
         {
             return await _context.DailyWorkSummaries
                 .Where(s => s.EmployeeId == employeeId &&
@@ -79,7 +79,7 @@ namespace Infrastructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<List<DailyWorkSummary>> GetByEmployeeAndDateRangeAsync(int employeeId, DateTime startDate, DateTime endDate)
+        public async Task<List<DailyWorkSummary>> GetByEmployeeAndDateRangeAsync(long employeeId, DateTime startDate, DateTime endDate)
         {
             return await _context.DailyWorkSummaries
                 .Include(d => d.Employee)

@@ -32,6 +32,12 @@ builder.Services.AddScoped<ICheckinService, CheckinService>();
 builder.Services.AddScoped<IDailyWorkSummaryService, DailyWorkSummaryService>();
 builder.Services.AddScoped<IWorkScheduleService, WorkScheduleService>();
 builder.Services.AddScoped<IWorkPlanService, WorkPlanService>();
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+builder.Services.AddScoped<IEmployeeProjectRepository, EmployeeProjectRepository>();
+builder.Services.AddScoped<IEmployeeProjectService, EmployeeProjectService>();
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();

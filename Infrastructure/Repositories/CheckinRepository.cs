@@ -26,7 +26,7 @@ namespace Infrastructure.Repositories
                 .FirstOrDefaultAsync(c => c.CheckinId == id);
         }
 
-        public async Task<List<Checkin>> GetByEmployeeIdAsync(int employeeId)
+        public async Task<List<Checkin>> GetByEmployeeIdAsync(long employeeId)
         {
             return await _context.Checkins
                 .Where(c => c.EmployeeId == employeeId)
@@ -35,7 +35,7 @@ namespace Infrastructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<List<Checkin>> GetByEmployeeAndDateAsync(int employeeId, DateTime date)
+        public async Task<List<Checkin>> GetByEmployeeAndDateAsync(long employeeId, DateTime date)
         {
             return await _context.Checkins
                 .Where(c => c.EmployeeId == employeeId && c.CheckinTime.Date == date.Date)
@@ -43,15 +43,19 @@ namespace Infrastructure.Repositories
                 .ToListAsync();
         }
 
-        public async Task<List<Checkin>> GetByEmployeeAndMonthAsync(int employeeId, int year, int month)
+        public async Task<List<Checkin>> GetByEmployeeAndMonthAsync(long employeeId, int year, int month)
         {
+            var start = new DateTime(year, month, 1);
+            var end = start.AddMonths(1);
+
             return await _context.Checkins
                 .Where(c => c.EmployeeId == employeeId &&
-                           c.CheckinTime.Year == year &&
-                           c.CheckinTime.Month == month)
+                            c.CheckinTime >= start &&
+                            c.CheckinTime < end)
                 .OrderBy(c => c.CheckinTime)
                 .ToListAsync();
         }
+
 
         public async Task AddAsync(Checkin checkin)
         {

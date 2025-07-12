@@ -7,7 +7,7 @@ public partial class DailyWorkSummary
 {
     public long Id { get; set; }
 
-    public int EmployeeId { get; set; }
+    public long EmployeeId { get; set; }
 
     public DateTime WorkDate { get; set; }
 

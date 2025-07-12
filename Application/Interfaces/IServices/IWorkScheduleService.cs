@@ -14,8 +14,8 @@ namespace Application.Interfaces.IServices
         Task<WorkScheduleDto> CreateScheduleAsync(CreateWorkScheduleDto dto);
         Task<WorkScheduleDto> UpdateScheduleAsync(long id, UpdateWorkScheduleDto dto);
         Task DeleteScheduleAsync(long id);
-        Task<List<WorkScheduleDto>> GetEmployeeMonthlySchedule(int employeeId, int year, int month);
-        Task<List<WorkScheduleDto>> GetEmployeeWeeklySchedule(int employeeId, DateTime startDate);
+        Task<List<WorkScheduleDto>> GetEmployeeMonthlySchedule(long employeeId, int year, int month);
+        Task<List<WorkScheduleDto>> GetEmployeeWeeklySchedule(long employeeId, DateTime startDate);
         Task<List<WorkScheduleMonthlyDto>> GetMonthlyWorkSchedules(int year, int month);
         Task CheckAndSendEmailReminders();
     }

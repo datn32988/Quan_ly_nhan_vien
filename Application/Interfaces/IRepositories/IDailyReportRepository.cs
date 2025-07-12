@@ -11,9 +11,9 @@ namespace Application.Interfaces.IRepositories
     public interface IDailyReportRepository
     {
         Task<DailyReport> CreateAsync(DailyReport dailyReport);
-        Task<DailyReport?> GetByEmployeeAndDateAsync(int employeeId, DateTime date);
-        Task<List<DailyReport>> GetByEmployeeAndMonthAsync(int employeeId, int year, int month);
-        Task<bool> ExistsAsync(int employeeId, DateTime date);
+        Task<DailyReport?> GetByEmployeeAndDateAsync(long employeeId, DateTime date);
+        Task<List<DailyReport>> GetByEmployeeAndMonthAsync(long employeeId, int year, int month);
+        Task<bool> ExistsAsync(long employeeId, DateTime date);
         Task<List<DailyReport>> GetByMonthAsync(int year, int month);
 
         

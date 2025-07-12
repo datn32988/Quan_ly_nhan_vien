@@ -11,7 +11,7 @@ namespace Application.Interfaces.IRepositories
     {
         Task<WorkPlan?> GetByIdAsync(long id);
         Task<WorkPlan?> GetByIdWithEmployeeAsync(long id);
-        Task<List<WorkPlan>> GetFilteredAsync(int? employeeId, DateTime? fromDate, DateTime? toDate, bool? isCompleted);
+        Task<List<WorkPlan>> GetFilteredAsync(long? employeeId, DateTime? fromDate, DateTime? toDate, bool? isCompleted);
         Task AddAsync(WorkPlan workPlan);
         Task UpdateAsync(WorkPlan workPlan);
         Task DeleteAsync(WorkPlan workPlan);

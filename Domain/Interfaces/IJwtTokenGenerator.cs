@@ -8,7 +8,7 @@ namespace Domain.Interfaces
 {
     public interface IJwtTokenGenerator
     {
-        string GenerateToken(int employeeId, string email, string fullName, string? position);
+        string GenerateToken(long employeeId, string email, string fullName, string? position);
         bool ValidateToken(string token);
         int? GetEmployeeIdFromToken(string token);
     }

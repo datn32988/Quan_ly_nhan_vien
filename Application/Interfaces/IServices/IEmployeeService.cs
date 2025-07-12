@@ -9,11 +9,11 @@ namespace Application.Interfaces.IServices
 {
     public interface IEmployeeService
     {
-        Task<EmployeeDto?> GetEmployeeByIdAsync(int id);
+        Task<EmployeeDto?> GetEmployeeByIdAsync(long id);
         Task<List<EmployeeDto>> GetAllEmployeesAsync();
-        Task<List<EmployeeDto>> GetEmployeesByManagerAsync(int managerId);
+        Task<List<EmployeeDto>> GetEmployeesByManagerAsync(long managerId);
         Task<EmployeeDto> CreateEmployeeAsync(EmployeeDto employeeDto);
-        Task UpdateEmployeeAsync(int id, EmployeeDto employeeDto);
-        Task DeleteEmployeeAsync(int id);
+        Task UpdateEmployeeAsync(long id, EmployeeDto employeeDto);
+        Task DeleteEmployeeAsync(long id);
     }
 }

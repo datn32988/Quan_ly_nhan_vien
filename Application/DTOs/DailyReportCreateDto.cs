@@ -9,7 +9,7 @@ namespace Application.DTOs
 {
     public class DailyReportCreateDto
     {
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public DateTime ReportDate { get; set; }
 
         public string? GeneralNotes { get; set; }

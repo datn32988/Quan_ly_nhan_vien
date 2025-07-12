@@ -81,6 +81,9 @@ namespace Application.Mapper
             CreateMap<CreateTaskDto, EmployeesList>();
             CreateMap<UpdateTaskDto, EmployeesList>();
             CreateMap<DailyReport, DailyReportDto>();
+            CreateMap<Position, PositionDto>().ReverseMap();
+            CreateMap<Department, DepartmentDto>().ReverseMap();
+            CreateMap<Project, ProjectDto>().ReverseMap();
 
         }
 

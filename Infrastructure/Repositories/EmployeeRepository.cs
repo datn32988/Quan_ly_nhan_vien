@@ -19,7 +19,7 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<Employee?> GetByIdAsync(int id)
+        public async Task<Employee?> GetByIdAsync(long id)
         {
                 return await _context.Employees
                     .Include(e => e.Position)
@@ -40,7 +40,7 @@ namespace Infrastructure.Repositories
             return await _context.Employees.ToListAsync();
         }
 
-        public async Task<List<Employee>> GetEmployeesByManagerAsync(int managerId)
+        public async Task<List<Employee>> GetEmployeesByManagerAsync(long managerId)
         {
             return await _context.Employees
                 .Where(e => e.ManagerId == managerId)
@@ -66,7 +66,7 @@ namespace Infrastructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<bool> ExistsAsync(int id)
+        public async Task<bool> ExistsAsync(long id)
         {
             return await _context.Employees.AnyAsync(e => e.EmployeeId == id);
         }
@@ -78,7 +78,7 @@ namespace Infrastructure.Repositories
                 .OrderBy(e => e.FullName)
                 .ToListAsync();
         }
-        public async Task<Employee?> GetById(int id)
+        public async Task<Employee?> GetById(long id)
         {
             return await _context.Employees
                 .Include(e => e.Position)

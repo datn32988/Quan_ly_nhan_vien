@@ -10,8 +10,8 @@ namespace Application.Interfaces.IRepositories
     public interface IAuthRepository
     {
         Task<Employee?> GetEmployeeByEmailAsync(string email);
-        Task<Employee?> GetEmployeeByIdWithDetailsAsync(int employeeId);
-        Task<bool> UpdatePasswordAsync(int employeeId, string hashedPassword);
+        Task<Employee?> GetEmployeeByIdWithDetailsAsync(long employeeId);
+        Task<bool> UpdatePasswordAsync(long employeeId, string hashedPassword);
         Task<bool> EmailExistsAsync(string email);
     }
 }
