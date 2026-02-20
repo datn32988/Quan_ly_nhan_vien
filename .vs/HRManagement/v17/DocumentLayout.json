@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\entities\\employeeproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\employeeproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -153,10 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\domain\\common\\worktimeconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC36E0BD-47F7-4E75-8F7A-D6FEB9D5C560}|Domain\\Domain.csproj|solutionrelative:domain\\common\\worktimeconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6DC0DCD8-83DB-437F-A197-59741F24C958}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7DAD1C5-3A73-4E75-93B3-8328FA6E14A1}|Application\\Application.csproj|d:\\ttdn-backend\\quan_ly_nhan_vien\\application\\dtos\\changepasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -438,37 +438,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeProjectsController.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\EmployeeProjectsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeeProjectsController.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\EmployeeProjectsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\EmployeeProjectsController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:04:04.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeProjectService.cs",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\EmployeeProjectService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\EmployeeProjectService.cs",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\EmployeeProjectService.cs",
-              "RelativeToolTip": "Application\\Services\\EmployeeProjectService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:02:43.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IEmployeeProjectService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IEmployeeProjectService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IEmployeeProjectService.cs",
@@ -476,12 +450,11 @@
               "RelativeToolTip": "Application\\Interfaces\\IServices\\IEmployeeProjectService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:02:20.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T04:02:20.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EmployeeProjectRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\EmployeeProjectRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\EmployeeProjectRepository.cs",
@@ -489,25 +462,24 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\EmployeeProjectRepository.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAYwCsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:01:50.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T04:01:50.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T04:01:42.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IEmployeeProjectRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IEmployeeProjectRepository.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IEmployeeProjectRepository.cs",
@@ -515,12 +487,61 @@
               "RelativeToolTip": "Application\\Interfaces\\IRepositories\\IEmployeeProjectRepository.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:01:26.407Z",
+              "WhenOpened": "2025-07-05T04:01:26.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.Development.json",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "WebAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T09:41:54.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T04:10:19.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeProjectService.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\EmployeeProjectService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EmployeeProjectService.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\EmployeeProjectService.cs",
+              "RelativeToolTip": "Application\\Services\\EmployeeProjectService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:02:43.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeProjectsController.cs",
+              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\EmployeeProjectsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeeProjectsController.cs",
+              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\EmployeeProjectsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\EmployeeProjectsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:04:04.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EmployeeProjectDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\EmployeeProjectDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\EmployeeProjectDto.cs",
@@ -528,12 +549,11 @@
               "RelativeToolTip": "Application\\DTOs\\EmployeeProjectDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T04:01:03.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T04:01:03.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Mapper.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Mapper\\Mapper.cs",
               "RelativeDocumentMoniker": "Application\\Mapper\\Mapper.cs",
@@ -545,19 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.json",
-              "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-16T04:10:19.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Employee.cs",
@@ -565,12 +573,11 @@
               "RelativeToolTip": "Domain\\Entities\\Employee.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:08:29.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T04:08:29.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "EmployeeProject.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\EmployeeProject.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\EmployeeProject.cs",
@@ -578,12 +585,11 @@
               "RelativeToolTip": "Domain\\Entities\\EmployeeProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T08:36:58.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T08:36:58.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Project.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Project.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Project.cs",
@@ -591,12 +597,11 @@
               "RelativeToolTip": "Domain\\Entities\\Project.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T08:36:28.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T08:36:28.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "EmployeeDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\EmployeeDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\EmployeeDto.cs",
@@ -604,12 +609,11 @@
               "RelativeToolTip": "Application\\DTOs\\EmployeeDto.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T07:33:46.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T07:33:46.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EmployeeInfoDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\EmployeeInfoDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\EmployeeInfoDto.cs",
@@ -617,12 +621,11 @@
               "RelativeToolTip": "Application\\DTOs\\EmployeeInfoDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T08:56:18.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T08:56:18.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IDepartmentService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IDepartmentService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IDepartmentService.cs",
@@ -634,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IProjectService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IProjectService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IProjectService.cs",
@@ -646,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DepartmentService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\DepartmentService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\DepartmentService.cs",
@@ -658,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ProjectService.cs",
@@ -670,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\DepartmentsController.cs",
@@ -682,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProjectsController.cs",
@@ -694,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProjectRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\ProjectRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProjectRepository.cs",
@@ -706,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DepartmentRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\DepartmentRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\DepartmentRepository.cs",
@@ -718,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IProjectRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IProjectRepository.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IProjectRepository.cs",
@@ -730,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IDepartmentRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IDepartmentRepository.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IDepartmentRepository.cs",
@@ -742,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProjectDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\ProjectDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ProjectDto.cs",
@@ -754,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DepartmentDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\DepartmentDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\DepartmentDto.cs",
@@ -766,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Position.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Position.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Position.cs",
@@ -778,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "IPositionRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IRepositories\\IPositionRepository.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IRepositories\\IPositionRepository.cs",
@@ -790,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "PositionRepository.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Repositories\\PositionRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PositionRepository.cs",
@@ -802,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PositionDto.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\DTOs\\PositionDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\PositionDto.cs",
@@ -814,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IPositionService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Interfaces\\IServices\\IPositionService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IServices\\IPositionService.cs",
@@ -826,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "PositionService.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Application\\Services\\PositionService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\PositionService.cs",
@@ -838,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "PositionsController.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\Controllers\\PositionsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\PositionsController.cs",
@@ -850,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Entities\\Department.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Department.cs",
@@ -862,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "20250705032334_InitCreate.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Migrations\\20250705032334_InitCreate.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250705032334_InitCreate.cs",
@@ -874,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Contexts\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Contexts\\ApplicationDbContext.cs",
@@ -886,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "WorkTimeConstants.cs",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Domain\\Common\\WorkTimeConstants.cs",
               "RelativeDocumentMoniker": "Domain\\Common\\WorkTimeConstants.cs",
@@ -898,19 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebAPI\\appsettings.Development.json",
-              "ToolTip": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\WebAPI\\appsettings.Development.json",
-              "RelativeToolTip": "WebAPI\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-19T09:41:54.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "D:\\TTDN-BackEnd\\Quan_ly_nhan_vien\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
